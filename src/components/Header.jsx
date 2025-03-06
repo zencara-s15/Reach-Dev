@@ -26,7 +26,7 @@ const Header = () => {
       <div className="max-w-screen-2xl w-full mx-auto px-4 flex justify-between items-center md:px-6 md:grid-cols-[1fr, 3fr, 1fr]">
         <h1>
           <a href="/" className="logo">
-            <img src="../../Eye.jpg" width={40} height={40} alt="Zencara" />
+            <img src="public/Images/Eye.jpg" width={40} height={40} alt="Zencara" />
           </a>
         </h1>
 

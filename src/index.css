@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html {
   scroll-behavior: smooth;
@@ -8,6 +11,42 @@ body {
   @apply bg-zinc-900 text-zinc-50;
 }
 
+/* ------------------------------------ *\
+  * Typography
+\* ------------------------------------ */
+
+.headline-1{
+  @apply max-w-max;
+  background-color: -webkit-linear-gradient(0deg, #fafafa 0%, #a1a1aa);
+  /* -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.headline-1{
+  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+}
+
+
+/* ------------------------------------ *\
+  * utilities
+\* ------------------------------------ */
+
+/* .material-symbols-outlined{
+  @apply w-[1rem] h-[1rem] overflow-hidden;
+  font-variation-settings: "FILL" 0, "WDTH" 400, "GRAD" 0, "OPSZ" 24 ;
+} */
+
+.container{
+  @apply px-4 mx-auto lg:px-8 xl:max-w-6xl
+}
+
+.img-box{
+  @apply bg-zinc-700 overflow-hidden
+}
+
+.img-cover{
+  @apply w-full h-full object-cover
+}
 /* ------------------------------------ *\
   * COMPONENTS
 \* ------------------------------------ */
@@ -60,3 +99,25 @@ body {
 .btn-secondary{
   @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80 
 }
+
+.btn .matierial-symbols-outlined{
+  @apply text-[18px];
+}
+
+.btn:has(.material-symbols-outlined){
+  @apply pr-3;
+}
+
+.btn-primary {
+  @apply h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 active:bg-sky-400;
+}
+
+/* :root {
+  --primary-color: color-mix(in srgb, red 50%, blue 50%);
+}
+
+button {
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 5px;
+} */
