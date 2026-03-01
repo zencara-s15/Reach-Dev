@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0f1a0f"/><stop offset="100%" stop-color="#22c55e"/></linearGradient></defs>
+  <rect fill="url(#g)" width="600" height="600" rx="12"/>
+  <rect x="265" y="235" width="70" height="55" rx="4" fill="none" stroke="#4ade80" stroke-width="2" opacity="0.5"/>
+  <rect x="275" y="245" width="20" height="15" rx="2" fill="#4ade80" opacity="0.3"/>
+  <rect x="275" y="265" width="50" height="3" rx="1" fill="#4ade80" opacity="0.2"/>
+  <rect x="275" y="273" width="35" height="3" rx="1" fill="#4ade80" opacity="0.2"/>
+  <text x="300" y="335" text-anchor="middle" fill="#a1a1aa" font-family="system-ui,sans-serif" font-size="20" font-weight="600">Real Estate Website</text>
+</svg>
